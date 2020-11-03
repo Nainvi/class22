@@ -1,0 +1,14 @@
+var wall,ball;
+var speed,weight;
+
+function setup(){
+speed=random(55,90);
+weight=random(400,1500);
+ball = createSprite(200,200,20,20);
+ball.shapeColor = "blue"
+}
+
+function draw(){
+  createCanvas(1600,400) 
+  drawSprites(); 
+}
